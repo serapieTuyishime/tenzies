@@ -14,7 +14,6 @@ export default function App() {
             setTenzies(true);
         }
     }, [dice]);
-
     function randomDieValue() {
         return Math.ceil(Math.random() * 6);
     }
